@@ -32,7 +32,7 @@ $(function() {
 	        transition_delay: 500
 	    });
     }
-    
+
     $(document).bind('scroll', function(ev) {
         var scrollOffset = $(document).scrollTop();
         var containerOffset = $section.offset().top - window.innerHeight;
@@ -74,7 +74,7 @@ $(function() {
         options = $.extend({}, options || {}, $this.data('countToOptions') || {});
         $this.countTo(options);
     }
-
+    // Izmena
     // Navigation overlay
     var s = skrollr.init({
             forceHeight: false,
@@ -85,5 +85,5 @@ $(function() {
                 return false;
             }
     });
-    
+
 });
